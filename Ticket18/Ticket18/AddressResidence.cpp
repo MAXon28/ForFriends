@@ -1,10 +1,10 @@
-#include "AddressResidence.h"
+п»ї#include "AddressResidence.h"
 
 AddressResidence::AddressResidence()
 {
-	Country = "Неизвестно";
-	City = "Неизвестно";
-	Street = "Неизвестно";
+	Country = "РќРµРёР·РІРµСЃС‚РЅРѕ";
+	City = "РќРµРёР·РІРµСЃС‚РЅРѕ";
+	Street = "РќРµРёР·РІРµСЃС‚РЅРѕ";
 	NumberOfHouse = 0;
 }
 
@@ -51,5 +51,5 @@ int AddressResidence::GetNumberOfHouse()
 void AddressResidence::toString()
 {
 	Address::toString();
-	cout << "Страна: " << Country << " Город: " << City << " Улица: " << Street << " Дом: " << NumberOfHouse;
+	cout << "РЎС‚СЂР°РЅР°: " << Country << " Р“РѕСЂРѕРґ: " << City << " РЈР»РёС†Р°: " << Street << " Р”РѕРј: " << NumberOfHouse;
 }

@@ -1,4 +1,4 @@
-#include "AddressPostal.h"
+ï»¿#include "AddressPostal.h"
 
 AddressPostal::AddressPostal()
 {
@@ -18,5 +18,5 @@ long int AddressPostal::Get_adressPostal()
 void AddressPostal::toString()
 {
 	Address::toString();
-	cout << " Ïî÷òîâûé àäðåñ: " << addressPostal;
+	cout << " ÐŸÐ¾Ñ‡Ñ‚Ð¾Ð²Ñ‹Ð¹ Ð°Ð´Ñ€ÐµÑ: " << addressPostal;
 }

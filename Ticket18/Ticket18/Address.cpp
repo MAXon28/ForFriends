@@ -1,9 +1,9 @@
-#include "Address.h"
+п»ї#include "Address.h"
 
 Address::Address()
 {
-	Name = "Неизвестно";
-	Surname = "Неизвестно";
+	Name = "РќРµРёР·РІРµСЃС‚РЅРѕ";
+	Surname = "РќРµРёР·РІРµСЃС‚РЅРѕ";
 }
 
 void Address::SetName()
@@ -28,5 +28,5 @@ string Address::GetSurname()
 
 void Address::toString()
 {
-	cout << "Имя: " << Name << " Фамилия: " << Surname;
+	cout << "РРјСЏ: " << Name << " Р¤Р°РјРёР»РёСЏ: " << Surname;
 }

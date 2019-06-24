@@ -1,8 +1,8 @@
-#include "AddressEmail.h"
+п»ї#include "AddressEmail.h"
 
 AddressEmail::AddressEmail()
 {
-	Email = "Неизвестно";
+	Email = "РќРµРёР·РІРµСЃС‚РЅРѕ";
 }
 
 void AddressEmail::SetEmail()
@@ -18,5 +18,5 @@ string AddressEmail::GetEmail()
 void AddressEmail::toString()
 {
 	Address::toString();
-	cout << " Электронная почта: " << Email;
+	cout << " Р­Р»РµРєС‚СЂРѕРЅРЅР°СЏ РїРѕС‡С‚Р°: " << Email;
 }
