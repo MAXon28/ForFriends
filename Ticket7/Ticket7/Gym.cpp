@@ -1,4 +1,4 @@
-#include "Gym.h"
+п»ї#include "Gym.h"
 #include <iostream>
 
 Gym::Gym()
@@ -12,22 +12,22 @@ Gym::Gym()
 int Gym::Work_gym_in_day()
 {
 	string Answer;
-	cout << "Есть сегодня посетители? ";
+	cout << "Р•СЃС‚СЊ СЃРµРіРѕРґРЅСЏ РїРѕСЃРµС‚РёС‚РµР»Рё? ";
 	cin >> Answer;
 	Visitor visitor;
-	if (Answer == "Да")
+	if (Answer == "Р”Р°")
 	{
 		do
 		{
-			cout << "Имя посетителя: ";
+			cout << "РРјСЏ РїРѕСЃРµС‚РёС‚РµР»СЏ: ";
 			visitor.Set_Name();
-			cout << "Возраст посетителя: ";
+			cout << "Р’РѕР·СЂР°СЃС‚ РїРѕСЃРµС‚РёС‚РµР»СЏ: ";
 			visitor.Set_Age();
 			Visitors.push_back(visitor);
 			NumberVisitorsInDay++;
-			cout << "Есть ещё посетители сегодня? ";
+			cout << "Р•СЃС‚СЊ РµС‰С‘ РїРѕСЃРµС‚РёС‚РµР»Рё СЃРµРіРѕРґРЅСЏ? ";
 			cin >> Answer;
-		} while (Answer != "Нет");
+		} while (Answer != "РќРµС‚");
 		return NumberVisitorsInDay;
 	}
 	else
