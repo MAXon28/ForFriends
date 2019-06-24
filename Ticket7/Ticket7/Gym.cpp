@@ -63,11 +63,11 @@ int Gym::Get_age_oldest_visitor()
 
 double Gym::Calculate_mean_age_visitors()
 {
-	int sumAges = 0;
+	double sumAges = 0;
 	for (int i = 0; i < Visitors.size(); i++)
 	{
 		sumAges += Visitors[i].Get_Age();
 	}
-	MeanAge = sumAges / NumberVisitorsInDay;
+	MeanAge = (sumAges / NumberVisitorsInDay);
 	return MeanAge;
 }
